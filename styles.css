@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Palanquin", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+p {
+  margin-top: 3px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+span {
+  margin-top: 3px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+b {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(244, 234, 234);
+}
+
+.sidebar {
+  box-sizing: border-box;
+  width: 45%;
+  background-color: #e3b8b8;
+  padding: 5px;
+  margin: 0;
+}
+
+.img-container {
+  background-image: url(./img/FB_IMG_1601467045742_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 240px;
+  height: 280px;
+  border-radius: 50%;
+}
+
+img {
+  display: block;
+  margin: 15px auto;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+}
+
+.sidebar__title {
+  display: flex;
+  background-color: rgb(94 58 70);
+  margin: 5px 5px;
+  padding: 5px 5px;
+  color: #e3b8b8;
+  font-size: 20px;
+}
+
+.sidebar__list {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sidebar__list-contacts {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  margin-right: 5px;
+}
+
+.sidebar__link {
+  text-decoration: none;
+}
+
+/* summary section */
+
+.summary-containet {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.summary__title-container {
+  background-color: rgb(94 58 70);
+  color: #e3b8b8;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.summary__title-name {
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.summary__title-position {
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.summary__title {
+  display: flex;
+  background-color: rgb(94 58 70);
+  padding: 5px 5px;
+  font-size: 20px;
+  color: #e3b8b8;
+  width: 80%;
+  padding: 5px;
+  margin-top: 0;
+}
+
+.summary__list {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.summary__link {
+  font-size: 15px;
+  font-weight: 600;
+}
