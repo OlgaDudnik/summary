@@ -7,6 +7,12 @@ body {
   font-weight: 600;
 }
 
+a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #07077b;
+}
+
 p {
   margin-top: 3px;
   margin-bottom: 5px;
@@ -15,15 +21,9 @@ p {
 }
 
 span {
-  margin-top: 3px;
-  margin-bottom: 5px;
   font-size: 14px;
   font-weight: 400;
-}
-
-b {
-  font-weight: 700;
-  font-size: 16px;
+  margin-top: 3px;
 }
 
 .container {
@@ -117,8 +117,9 @@ img {
 }
 
 .summary__title-position {
-  font-weight: 400;
-  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 3px;
 }
 
 .summary__title {
@@ -137,7 +138,15 @@ img {
   font-weight: 400;
 }
 
-.summary__link {
-  font-size: 15px;
-  font-weight: 600;
+.summary__title-company,
+b {
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.summary__date {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 0;
 }
